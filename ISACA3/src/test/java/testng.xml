@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ISACA 3.0">
+	<listeners>
+		<listener class-name="UtilwsFiles.ExtentReportTestNG" />
+	</listeners>
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="testcases.LoginPageTestcases"></class>
+			<class name="testcases.HomepageTestcases"></class>
+		</classes>
+	</test>
+</suite>
